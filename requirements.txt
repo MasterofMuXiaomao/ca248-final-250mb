@@ -1,0 +1,28 @@
+# CA-248 250MB最终版 - 依赖要求
+
+# 核心依赖
+numpy>=1.21.0
+scipy>=1.7.0
+
+# PyTorch (可选，根据平台选择)
+# CPU版本
+torch>=1.13.0
+
+# 或者GPU版本 (CUDA 11.8)
+# torch>=1.13.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+
+# 移动端优化依赖 (可选)
+onnxruntime>=1.15.0
+onnx>=1.14.0
+
+# 工具依赖
+loguru>=0.6.0
+tqdm>=4.64.0
+pydantic>=2.0.0
+
+# 开发依赖 (可选)
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
